@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -205,3 +205,35 @@ a.social:hover {
 
 }
 
+/* My css */
+
+caption {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+table, th, td {
+border: 1px solid #2d0d18;
+border-collapse: collapse;
+padding: 5px 10px;
+}
+
+table {
+width:90%;
+margin: auto;
+
+}
+
+tr {
+height: 30px;
+}
+
+th {
+background-color: #033a08; 
+color: #f2eded;
+}
+
+tbody tr:nth-child(odd) {
+background-color: #bb9fa6; 
+} 
